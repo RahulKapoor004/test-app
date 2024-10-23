@@ -1,0 +1,18 @@
+<div >
+  <form (ngSubmit)="onSubmit()" class="p-4 border rounded bg-light shadow-sm">
+    <h2 class="mb-4">Add Sample</h2>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name:</label>
+      <input [(ngModel)]="name" type="text" id="name" name="name" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Description:</label>
+      <input [(ngModel)]="description" type="text" id="description" name="description" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price:</label>
+      <input [(ngModel)]="price" type="text" id="price" name="price" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Add Sample</button>
+  </form>
+</div>

@@ -1,0 +1,14 @@
+.nav-link {
+    transition: background-color 0.3s, color 0.3s;
+    color: #212529; /* Change to your desired text color */
+}
+
+.nav-link:hover {
+    background-color: #5a5a5a; /* Light dark color on hover */
+    color: white; /* Change text color on hover */
+}
+
+.nav-link.active {
+    background-color: #5a5a5a; /* Light dark color for active link */
+    color: white; /* Change active link text color */
+}
